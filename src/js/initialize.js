@@ -6,4 +6,4 @@ var App = {
 	Rendered: {}
 };
 
-// Parse.initialize("parse key", "parse key");
+// Parse.initialize("application ID", "javascript key");
