@@ -27,12 +27,14 @@ $colour-copy: #333;
 // layout
 
 $grid-columns : 12;
-$grid-width : 1170px;
-$grid-gutter : 15px;
+$grid-width : 960px;
+$grid-gutter : 10px;
 
 // breakpoints
 
 $breakpoints: (
-    (mobile 	759px)
-    (extended 	  1440px)
-)
+	(phone 		320px)
+	(tablet 	680px)
+	(desktop 	1170px)
+	(extended 	1440px)
+);

@@ -1,15 +1,10 @@
-// Profile model
-App.Models.Profile = Backbone.Model.extend({
+// Generic model
+App.Models.Model = Backbone.Model.extend({
 
 	defaults: {
 		id: '',
-		username: '',
 		name: '',
-		title: '',
-		department: '',
-		office: '',
-		createdAt: '',
-		photo: ''
+		age: ''
 	}
 
 });

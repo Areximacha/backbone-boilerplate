@@ -8,6 +8,12 @@ Stylesheet: Mixins
 ******************************************************************/
 
 /*********************
+NOTE: Documentation for compass box-shadow is either out of date or incorrect.
+For a single box shadow the arguement order is:
+@include single-box-shadow([$color], [$hoff], [$voff], [$blur], [$spread], [$inset]);
+*********************/
+
+/*********************
 ANIMATION
 *********************/
 

@@ -19,6 +19,8 @@ body {
 	color: $colour-copy;
 	font-size: 100%;
 	line-height: 100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
 }
 
 * {
@@ -82,10 +84,19 @@ ol {
 	}
 }
 
-b {
-	font-weight: bold;
+strong {
+	font-weight: 600;
+}
+
+// i is now used for icons
+i {
+	display: inline-block;
 }
 
 .hide {
     display: none;
+}
+
+.clearfix {
+	clear: both;
 }
