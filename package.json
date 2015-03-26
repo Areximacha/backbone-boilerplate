@@ -1,5 +1,5 @@
 {
-    "name": "folksy",
+    "name": "boilerplate",
     "version": "0.0.1",
     "contributors": [{
         "name": "Jay Tang",
@@ -20,6 +20,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@bitbucket.org:analogfolk-ondemand/glbanaflk-folksy.git"
+        "url": "git@github.com:Areximacha/backbone-boilerplate.git"
     }
 }
