@@ -10,9 +10,6 @@ Stylesheet:
 
 html {
 
-	@include breakpoint(false, mobile) {
-		width: 100%;
-	}
 }
 
 body {
