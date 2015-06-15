@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
     var srcDir = 'src',
-        distDir = 'parse/public/_includes',
+        distDir = 'www/_includes',
         jsFileConfig = [
             {
                 src: [
@@ -152,7 +152,7 @@ module.exports = function(grunt) {
                 build: {
                     options: {
                         format: 'json',
-                        basedir: 'parse/public/'
+                        basedir: 'www/'
                     },
                     src: [ distDir + '/js/main.js', distDir + '/css/main.css' ],
                     dest: 'cachebusters.json'
